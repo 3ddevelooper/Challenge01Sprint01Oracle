@@ -31,4 +31,12 @@ El resultado debe ser mostrado en la pantalla.
 
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
+**Resoluciones:**
+ Desktop: 1366x768
+ Break Point
+ _-@media (max-width: 1199.98px)
+ -@media (max-width: 991.98px)
+ -@media (max-width: 767.98px)
+ -@media (max-width: 575.98px)_
+
 # challengeonecodificador2
