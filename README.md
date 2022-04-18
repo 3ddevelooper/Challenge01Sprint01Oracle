@@ -35,11 +35,11 @@ El resultado debe ser mostrado en la pantalla.
 
  Desktop: 1366x768
  
- Break Point:
+ Break Point: _
  
- **- @media (max-width: 1199.98px)
+ - @media (max-width: 1199.98px)
  - @media (max-width: 991.98px)
  - @media (max-width: 767.98px)
- - @media (max-width: 575.98px)**
+ - @media (max-width: 575.98px)_
 
 # challengeonecodificador2
