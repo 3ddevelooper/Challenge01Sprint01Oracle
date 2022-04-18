@@ -34,7 +34,7 @@ function encriptar(texto) {
 }
 
 function mensajeDesencriptar(texto) {
-    if (texto == "ia") {
+    if (texto == "ia" || texto == "ai") {
         texto = "a";
         return texto;
     } else if (texto == "enter") {
@@ -53,7 +53,7 @@ function mensajeDesencriptar(texto) {
 }
 
 function desencriptar(texto) {
-    var mensajeDesencriptado = texto.replace(/ia|enter|imes|ober|ufat/g, mensajeDesencriptar);
+    var mensajeDesencriptado = texto.replace(/ai|ia|enter|imes|ober|ufat/g, mensajeDesencriptar);
     return mensajeDesencriptado;
 }
 
