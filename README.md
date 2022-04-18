@@ -37,7 +37,7 @@ El resultado debe ser mostrado en la pantalla.
  
  Break Point
  
- _- @media (max-width: 1199.98px)
+ _ - @media (max-width: 1199.98px)
  - @media (max-width: 991.98px)
  - @media (max-width: 767.98px)
  - @media (max-width: 575.98px)_
