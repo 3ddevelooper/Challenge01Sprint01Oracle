@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="./assets/logo.svg" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Encriptador | Alura</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="./assets/logo.svg" alt="Logo Alura">
+            <h1>Encriptador de texto</h1>
+        </div>
+    </header>
+
+    <section>
+        <div class="leftsection_container">
+
+            <div>
+                <textarea style="text-transform:lowercase" id="texto" placeholder="          Ingrese su texto aqui" onkeypress="return soloLetras(event)" maxlength="200"></textarea>
+            </div>
+            <div class="icon_container">
+                <img src="./assets/icon.svg" alt="Icono Advertencia">Solo letras minusculas y sin acento.
+            </div>
+            <div class="btn_container">
+                <button id="encriptar" class="btn_encriptar">Encriptar</button>
+                <button id="desencriptar" class="btn_desencriptar">Desencriptar</button>
+            </div>
+
+        </div>
+        <div id="lateral" class="img_container">
+            <div class="imagen_container">
+                <img src="./assets/imagen.svg" alt="Imagen Buscar">
+            </div>
+            <div class="texto_container">
+                <h3>Ningún mensaje fue encontrado</h3>
+                <p id="mensaje_finals">Ingrese el texto que desea encriptar o desencriptar</p>
+            </div>
+        </div>
+        <div id="lateral2" class="mensaje_container">
+            <div class="textofinal_container">
+                <p id="mensaje_final"></p>
+                <button id="copiar" class="btn_copiar">Copiar</button>
+            </div>
+        </div>
+    </section>
+    <br>
+    <footer>
+        <p>Copyright &copy<span id="fecha"></span><a rel="nofollow noopener noreferrer" href="https://damiandries.com.ar/" target="_blank">
+           Damian Dries</a> | Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
